@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div class="main-container">
+      <header>
+        <a href="" class="logo-container">
+          <i class="fab fa-airbnb"></i>
+          <h2>airbnb</h2>
+        </a>
+
+        <div class="header-right">
+          <a href="" class="become-host">Become a host</a>
+
+          <a href="" class="globe-arrow">
+            <i class="fas fa-globe" id="globe-icon"></i>
+            <i class="fas fa-chevron-down" id="arrow-icon"></i>
+          </a>
+
+          <a href="" class="user-menu">
+            <i class="fas fa-bars" id="menu-icon"></i>
+            <i class="fas fa-user-circle" id="user-icon"></i>
+          </a>
+        </div>
+      </header>
+
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" class="search-bar-input" name="search-bar-input" placeholder="Where are you going?">
+      </div>
+
+      <section class="middle-menu">
+          <nav>
+            <a href="">Places to stay</a>
+            <a href="">Experiences</a>
+            <a href="">Online Experiences</a>
+          </nav>
+
+          <div class="middle-bottom">
+            <div class="location-container form-container">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" placeholder="Where are you going?">
+            </div>
+
+            <div class="check-in-container form-container">
+              <label for="start-date">Check in</label>
+              <input type="date" id="start-date" name="start-date">
+            </div>
+
+            <div class="check-out-container form-container">
+              <label for="end-date">Check out</label>
+             <input type="date" id="end-date" name="end-date">
+            </div>
+
+            <div class="guests-container form-container">
+              <label for="guests">Guests</label>
+              <input type="number" id="guests" name="guests" min="1" max="26">
+            </div>
+
+            <a href="" class="search">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+        </section>
+
+      <section class="hero-container">
+        <h1>Go<br>Near</h1>
+        <a href="" class="explore">Explore nearby stays</a>
+      </section>
+
+      <footer>
+        <a href="" class="explore-container footer-container">
+          <i class="fas fa-search"></i>
+          <p>Explore</p>
+        </a>
+
+        <a href="" class="saved-container footer-container">
+          <i class="far fa-heart"></i>
+          <p>Saved</p>
+        </a>
+
+        <a href="" class="log-in-container footer-container">
+          <i class="fas fa-user-circle"></i>
+          <p>Log in</p>
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
